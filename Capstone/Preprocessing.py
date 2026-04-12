@@ -136,9 +136,9 @@ SUBREDDIT = "stocks"
 
 try:
     reddit = praw.Reddit(
-        client_id="hXfCynkMLdpWdQDbSv7KWw",
-        client_secret="ueOnjgF9-dvoDoDXVmFbsJ-lU5mrsw",
-        user_agent="ScraperSentimentAnalysis/0.1 by sasakeeper2"
+        client_id="Your-ID",
+        client_secret="Your-Secret",
+        user_agent="Your-Agent"
     )
     posts = []
     for post in reddit.subreddit(SUBREDDIT).new(limit=None):
